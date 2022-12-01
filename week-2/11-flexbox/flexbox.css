@@ -1,1 +1,18 @@
 /* Add your own CSS code below */
+.countries--first{
+    display: flex;
+    justify-content: right;
+    width: 535px;
+}
+
+.countries--second{
+    display: flex;
+    flex-direction: column;
+    width:570px;
+}
+
+.countries--third{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
