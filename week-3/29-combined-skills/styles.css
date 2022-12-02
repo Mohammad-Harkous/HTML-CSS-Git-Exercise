@@ -1,1 +1,66 @@
 /* Add your own CSS code below */
+footer span{
+color: #c85308;
+}
+
+.main-nav__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+input[type=radio]{
+    margin-left: 10px;
+}
+
+article {
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;             
+    max-width: 50em;
+}
+
+article > p{
+    line-height: 2;
+}
+
+.site-content{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 992px){
+    .hero__title{
+        font-size: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    
+    .site-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .views {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .view-list__item{
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    .views__all{
+        margin-left: 325px;
+    }
+    
+}
+
+
+
+
+
